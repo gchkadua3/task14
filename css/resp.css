@@ -1,0 +1,89 @@
+@media only screen and (max-width: 500px) {
+    .btnandburger {
+        gap: 0px 10px;
+    }
+
+    .respimg {
+        width: 150px;
+        height: 58px;
+    }
+
+    .btn-resp-1 {
+        border: 1px solid #FFFFFF;
+        width: 70px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-resp-1 a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    
+    .burgerimg {
+        width: 60px;
+        height: 50px;
+    }
+
+    .dropdwnmenu {
+        display: none;
+        border: 1px solid white;
+        padding: 10px 5px;
+        gap: 10px 0px;
+    }
+
+    .dropdwnmenu a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;  
+    }
+
+    .burger:hover .dropdwnmenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firsttext {
+        font-size: 52px !important;
+        text-align: left !important;
+    }
+
+    .secondtext {
+        text-align: left !important;
+    }
+
+    .twobtns {
+        margin-top: 40px !important;
+    }
+
+    .cardsrow {
+        margin-top: 41px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paddforrow {
+        padding: 0 !important;
+    }
+
+    .second-card {
+        margin-top: 25px !important;
+    }
+
+    .m-for-img {
+        margin-top: 25px;
+    }
+
+    .footer-flex {
+        gap: 50px;
+        align-items: center;
+    }
+  
+}

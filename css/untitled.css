@@ -1,0 +1,433 @@
+@font-face {
+    font-family: lora;
+    src: url(../fonts/Lora-Regular.ttf);
+}
+
+* {
+    font-family: lora;
+}
+
+
+body {
+    background: #181818;
+}
+
+.navlinks {
+    gap: 0px 51px;
+}
+
+.navbr {
+    padding-top: 30px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    border: 1px solid #FFFFFF;
+    width: 139px;
+    height: 52px;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;  
+}
+
+.first-section {
+    margin-top: 70px;
+}
+
+.firsttext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.secondtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 37px !important;
+}
+
+.twobtns {
+    margin-top: 95px;
+    gap: 0px 10px;
+}
+
+.btn-2 {
+    width: 178px;
+    height: 65px;
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.btn-3 {
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    width: 174px;
+    height: 65px;
+}
+
+.btn-2 a, .btn-3 a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.bglinear {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.second-section {
+    background: #181818;
+    padding: 100px 0px;
+}
+
+.thirdtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    
+}
+
+.fourthtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 27px !important;
+
+}
+
+.threeimgs {
+    padding-bottom: 100px !important;
+}
+
+.first-card {
+    width: 261px;
+}
+
+.svgandtext {
+    gap: 0px 13px;
+}
+
+.svgandtext p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.fifthtext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    margin-top: 20px !important;
+}
+
+.cardsrow {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.third-section {
+    background: #181818;
+    padding: 100px 0px;
+}
+
+.second-card {
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.headingforcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.headingforcard h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.headingforcard p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    width: 290px;
+    text-align: center;
+}
+
+.btn-4 {
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    width: 157px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-4 a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.boards {
+    
+}
+
+.fourth-section {
+    padding: 100px 0px !important;
+}
+
+.imgrowcard {
+    border-radius: 12px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+.paddforrow {
+    padding: 0px 30px;
+}
+
+.rowfordiffheight img {
+    height: 285px !important;
+}
+
+.rowforresponsivecards {
+    flex-direction: column;
+    align-items: center;
+    gap: 31px 0px;
+}
+
+.btn-9 {
+    border: 1px solid #FFFFFF;
+    padding: 10px 30px;
+}
+
+.btn-9 a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+
+.fifth-section {
+    padding: 100px 0px ;
+}
+
+.sixth-section {
+    padding: 100px 0px;
+}
+
+.card-2000 {
+    background: #181818;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.avatarandtitle {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.fullnameposition {
+    display: flex;
+    flex-direction: column;   
+}
+
+.fullnameposition p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.card-2000 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.seventh-section {
+    padding: 100px 0px;
+}
+
+.weirditem {
+    background: #343434;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 33px;
+    display: flex;
+    gap: 60px;
+    padding: 40px;
+    align-items: center;
+}
+
+.weirditem-text-button h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.weirditem-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.btn-2000 {
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 52px;
+}
+
+.btn-2000 a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    padding: 100px 0px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer-list-flex {
+    display: flex;
+    gap: 120px;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.list-1 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.list-flex-items {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.list-flex-items a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.icon-adress p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+.icons {
+    gap: 15px;
+}
